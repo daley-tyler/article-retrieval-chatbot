@@ -1,0 +1,7 @@
+Harbor service notes
+
+The Harbor service stores deployment records in a local SQLite database.
+The Harbor service publishes a new index only after its health check passes.
+If a health check fails, the Harbor service keeps the previous index available.
+
+These are fictional notes written for this project's tests and demonstration.

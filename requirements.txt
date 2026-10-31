@@ -1,0 +1,5 @@
+# Direct runtime versions; requirements-lock-macos-py312.txt pins the verified dependency set.
+numpy==2.4.4
+sentence-transformers==5.4.1
+torch==2.11.0
+transformers==5.5.4

@@ -1,0 +1,13 @@
+[
+  {
+    "question": "Where does the Harbor service store deployment records?",
+    "gold_doc": "Harbor.txt",
+    "gold_keywords": ["sqlite"]
+  },
+  {
+    "question": "What was the name of Apollo 11's lunar module?",
+    "gold_doc": "",
+    "gold_keywords": [],
+    "should_reject": true
+  }
+]

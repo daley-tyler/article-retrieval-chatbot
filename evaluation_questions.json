@@ -1,0 +1,85 @@
+[
+  {
+    "question": "What kind of food does aquaculture farm?",
+    "gold_doc": "Aquaculture.txt",
+    "gold_keywords": ["seafood"]
+  },
+  {
+    "question": "What is archaeology the study of?",
+    "gold_doc": "Archaeology.txt",
+    "gold_keywords": ["human past"]
+  },
+  {
+    "question": "Who do architects often work with to make structurally sound buildings?",
+    "gold_doc": "Architecture.txt",
+    "gold_keywords": ["structural engineers"]
+  },
+  {
+    "question": "What is the capital of Argentina?",
+    "gold_doc": "Argentina.txt",
+    "gold_keywords": ["buenos aires"]
+  },
+  {
+    "question": "In mathematics, what is the basic study of numbers called?",
+    "gold_doc": "Arithmetic.txt",
+    "gold_keywords": ["arithmetic"]
+  },
+  {
+    "question": "What is the capital of Armenia?",
+    "gold_doc": "Armenia.txt",
+    "gold_keywords": ["yerevan"]
+  },
+  {
+    "question": "What is the product of art called?",
+    "gold_doc": "Art.txt",
+    "gold_keywords": ["work of art"]
+  },
+  {
+    "question": "What is the biggest object in the asteroid belt?",
+    "gold_doc": "Asteroid.txt",
+    "gold_keywords": ["ceres"]
+  },
+  {
+    "question": "What is astronomy the scientific study of?",
+    "gold_doc": "Astronomy.txt",
+    "gold_keywords": ["celestial bodies"]
+  },
+  {
+    "question": "What is in the middle of an atom?",
+    "gold_doc": "Atom.txt",
+    "gold_keywords": ["nucleus"]
+  },
+  {
+    "question": "What kind of toe cover do work boots often have?",
+    "gold_doc": "Boot.txt",
+    "gold_keywords": ["steel toe cover"]
+  },
+  {
+    "question": "What major historical change did the development of farming give rise to?",
+    "gold_doc": "Farming.txt",
+    "gold_keywords": ["neolithic revolution"]
+  },
+  {
+    "question": "From what continent did the ancestors of Native Americans come?",
+    "gold_doc": "Native_American.txt",
+    "gold_keywords": ["asia", "siberia"]
+  },
+  {
+    "question": "What was the name of Apollo 11's lunar module?",
+    "gold_doc": "",
+    "gold_keywords": [],
+    "should_reject": true
+  },
+  {
+    "question": "What is the capital of France?",
+    "gold_doc": "",
+    "gold_keywords": [],
+    "should_reject": true
+  },
+  {
+    "question": "Who wrote Hamlet?",
+    "gold_doc": "",
+    "gold_keywords": [],
+    "should_reject": true
+  }
+]

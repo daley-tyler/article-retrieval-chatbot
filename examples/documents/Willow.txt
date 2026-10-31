@@ -1,0 +1,6 @@
+Willow service notes
+
+The Willow service stores application logs in plain text files.
+The Willow service rotates application logs once each day.
+
+These are fictional notes written for this project's tests and demonstration.

@@ -1,0 +1,155 @@
+{
+  "description": "Hashes of the 37 historical local article files; text is excluded from this repository.",
+  "dataset": "wikimedia/wikipedia",
+  "configuration": "20231101.simple",
+  "files": {
+    "Arithmetic.txt": {
+      "sha256": "42d5ed83033e6b05719ee1f90054808c8b0c0bad6ab7d8df0e4e64f5a3744f87",
+      "bytes": 1392
+    },
+    "Australia.txt": {
+      "sha256": "73f2f6f5a9706da9b33b3479a7a02e1bab122442d73eb401c11e6636f77ce9ba",
+      "bytes": 25828
+    },
+    "American_English.txt": {
+      "sha256": "a4a10dc294983bb94989b4679be68868df50d778a68da86012b2f12b8a035ad3",
+      "bytes": 4265
+    },
+    "Alanis_Morissette.txt": {
+      "sha256": "3a2b0abce443ba629b374d37b643a87e2a0882f6a9a8540459a080028202125d",
+      "bytes": 4165
+    },
+    "Angel.txt": {
+      "sha256": "7706cf3e2a1193b93f6c043fef37ed84d945df392187c0ab65f93e9bfb274fc0",
+      "bytes": 8114
+    },
+    "Ad_hominem.txt": {
+      "sha256": "2f616b9291e682cea96f13c4f41d4cde3e163a05fe4f1a421bf892bbecb89391",
+      "bytes": 1776
+    },
+    "Algebra.txt": {
+      "sha256": "e0ea6c679034a4d3f433c939b29101095ccaccf6634535b4418f6f2c191c8183",
+      "bytes": 10955
+    },
+    "Alan_Turing.txt": {
+      "sha256": "5426447850af665e017bf6a5e8ea7ae332ad12300b654bcf557d6e710f1c6844",
+      "bytes": 5118
+    },
+    "Autonomous_communities_of_Spain.txt": {
+      "sha256": "84db89d2d350d24911a14bf02e1f71e178a909a04c7dfa63b94b23650c0cafee",
+      "bytes": 2088
+    },
+    "Andouille.txt": {
+      "sha256": "260313a319efb26758d4f88b3411b48170000ec5735248e5f21e23d26ef69e5a",
+      "bytes": 540
+    },
+    "Native_American.txt": {
+      "sha256": "99a55eebf6aac5d75018047b3b6d8f16c590fa140d9f4fca8602d1506acc9a5a",
+      "bytes": 5969
+    },
+    "Adobe_Illustrator.txt": {
+      "sha256": "a238e7f8e0315a9659f177d2e3bfe5962914a1ffb9b1b822275963bc2e3f2171",
+      "bytes": 490
+    },
+    "Argentina.txt": {
+      "sha256": "7062fa7935181f1ab76ea4d0b11441b07742f7b04de2752f35dd905caf18d621",
+      "bytes": 6640
+    },
+    "Application.txt": {
+      "sha256": "232ba94d535562f8ace565ff136eb2c0bccfd2114ac70a00902a2865ef6f492a",
+      "bytes": 750
+    },
+    "Farming.txt": {
+      "sha256": "8cc00ef5d8079dd7d5bccc608dd486e4f53d534ed363f2fef03e66e5edc7f3e1",
+      "bytes": 6944
+    },
+    "Afghanistan.txt": {
+      "sha256": "19fc67fae7c942bf26197ba738d50b2071a1d9a91101f1513d6f407008633e2b",
+      "bytes": 18896
+    },
+    "Angola.txt": {
+      "sha256": "1252caac1cf4cb27285b57870a607d7071eb4a81a0c9fdae85701950100a6990",
+      "bytes": 1946
+    },
+    "Aquaculture.txt": {
+      "sha256": "453eb0c33de65224499f24dd8327008e268d44451f8becf3929cfca63bd5856f",
+      "bytes": 1000
+    },
+    "Astronomy.txt": {
+      "sha256": "3e2df00e612de43d5f7c3189355e5017a0f9fee38059df1ffa00a394477366a8",
+      "bytes": 14000
+    },
+    "Air.txt": {
+      "sha256": "180a11b1e185e7f3d953b70d819c46f909c7e6a77b094c0aaa1933231c07f0b9",
+      "bytes": 2994
+    },
+    "Abrahamic_religions.txt": {
+      "sha256": "c3d1e337307fa0b5865d4cf659fd1cee39c8ba2c3c8b3da9e679c238857a56bd",
+      "bytes": 810
+    },
+    "Acceleration.txt": {
+      "sha256": "e991be0e305989eb6d624a558aa43f7579fb37132a8ed6804d94a4bf96d11539",
+      "bytes": 3561
+    },
+    "Armenia.txt": {
+      "sha256": "c4e43a73adf49a90632033539b6deb8480a9f73efc99dea1ac35ba1c89df7c11",
+      "bytes": 3187
+    },
+    "Addition.txt": {
+      "sha256": "6d52e8ce6a91667ca1633dc886feeb6e8372b7c63fcc57ccb26daa577bdafb59",
+      "bytes": 3657
+    },
+    "Boot.txt": {
+      "sha256": "5e1cc6096fa8d5884812e3650036dc5ab42790a735d33bc2c8576b564fac8d67",
+      "bytes": 1975
+    },
+    "Art.txt": {
+      "sha256": "bf16ef42d57d51adf054d1a9679a65326d2071eea190fe9f867915bd01ea9021",
+      "bytes": 5598
+    },
+    "A.txt": {
+      "sha256": "2009cc34111994d9324d1925c6fe69d5bd8a83b0c470808b9d39ecfde939483f",
+      "bytes": 1910
+    },
+    "Archaeology.txt": {
+      "sha256": "3a6ec4b5cc75b6b20f69f226934ace642834612f83595d2f30dddae5e8f618c8",
+      "bytes": 4464
+    },
+    "Animal.txt": {
+      "sha256": "b6d27bdbfa8f9b54e8c2c8c943392d88443484bc38cce18adf135d8907ffbfad",
+      "bytes": 2949
+    },
+    "Architecture.txt": {
+      "sha256": "763c1a9d64cde688aa0937df18e7b386e4d42311201d7804876c22b11fd559e9",
+      "bytes": 5193
+    },
+    "Anatomy.txt": {
+      "sha256": "0e90f9726c7aeb17fb36cac40f725dccc790ba8a83cc37ffc1e5f01d279b33c0",
+      "bytes": 1474
+    },
+    "Black_pudding.txt": {
+      "sha256": "d206c5507dfc6fbc54c727a62931104ca6deb139717d080d262cd5c4d13cea80",
+      "bytes": 1111
+    },
+    "Apple.txt": {
+      "sha256": "8e43752a65a24a9c61e0a3cc2ebde1e2f4a382d76541dc97eb12774826566143",
+      "bytes": 8708
+    },
+    "Atom.txt": {
+      "sha256": "e5f064682bd1749980e52fe63186efe079bc1228446c440652f0d1ea7bc801aa",
+      "bytes": 22660
+    },
+    "Austria.txt": {
+      "sha256": "9d9f4e6f7310971959fe1ca828292c8966f642180cd850181f869dbd1fe709a9",
+      "bytes": 5385
+    },
+    "Boot_device.txt": {
+      "sha256": "00c3897b9a9e476cb0820d1ab6b754eb2d889f6e752e14af8685663f5c885511",
+      "bytes": 1476
+    },
+    "Asteroid.txt": {
+      "sha256": "189666a9c793e31dc9e1234b07e7085d5c71c4efade8f9b1960ff943e157deb5",
+      "bytes": 1763
+    }
+  }
+}

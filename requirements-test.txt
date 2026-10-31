@@ -1,0 +1,2 @@
+# Unit tests use an injected encoder and never download model weights.
+numpy==2.4.4

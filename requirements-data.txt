@@ -1,0 +1,3 @@
+-r requirements.txt
+# Optional downloader only; not needed for the included demonstration or unit tests.
+datasets==4.8.4
