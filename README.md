@@ -2,7 +2,7 @@
 
 I built this university project to explore how chunking, embeddings and retrieval rules affect answers over a small collection of articles. It searches local text files and returns a sentence from the retrieved context with a source citation. If the context does not support an answer, it can refuse the question.
 
-Answers are extractive. The application selects a sentence from the retrieved documents and can display the context and prompt it assembled. Embeddings and sentence selection run locally, without a generative LLM or an answering API.
+The answers are extractive. The application selects a sentence from the retrieved documents and can display the context and prompt it assembled. Embeddings and sentence selection run locally, without a generative LLM or an answering API.
 
 ## How it works
 
