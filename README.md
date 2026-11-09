@@ -2,7 +2,7 @@
 
 I built this university project to explore how chunking, embeddings and retrieval rules affect answers over a small collection of articles. It searches local text files and returns a sentence from the retrieved context with a source citation. If the context does not support an answer, it can refuse the question.
 
-The answers are extractive. The code builds a grounded prompt for inspection, but it does not call a generative LLM or an external answering API. The included demonstration uses fictional service notes that I can distribute with the source. This repository is the public source snapshot; the original coursework and development history remain preserved separately.
+The answers are extractive. The application selects a sentence from the retrieved documents and can display the context and prompt it assembled. Embeddings and sentence selection run locally, without a generative LLM or an answering API.
 
 ## How it works
 
@@ -37,7 +37,19 @@ The first demonstration run downloads the pinned public embedding model from Hug
 HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 python demo.py --local-files-only
 ```
 
-The supported example asks where the fictional Harbor service stores deployment records. It returns the sentence naming its SQLite database, with a `Harbor.txt#chunk-...` citation. A question about Apollo 11 is refused because those notes do not contain its answer. Start interactive mode with:
+The included demo searches fictional service notes. Here is an excerpt from its output, with the retrieval diagnostics omitted.
+
+```text
+QUESTION: Where does the Harbor service store deployment records?
+ANSWER: The Harbor service stores deployment records in a local SQLite database.
+Sources: Harbor.txt#chunk-0
+
+QUESTION: What was the name of Apollo 11's lunar module?
+ANSWER: I do not have enough information in the retrieved documents.
+Sources: none
+```
+
+Start interactive mode with:
 
 ```sh
 python rag_chatbot.py --documents examples/documents
@@ -92,4 +104,4 @@ The Wikipedia text is excluded. `docs/corpus-manifest.json` records its filename
 
 This is a small CLI prototype. Cleaning and sentence/section detection are heuristic and English-oriented. It supports plain text, not PDF parsing, OCR or uploads. Full-matrix retrieval and repeated sentence encoding suit small collections; large-scale indexing, authentication, monitoring and production availability are outside its scope. Refusals can miss valid answers, and plausible-looking citations do not certify a document's truth or authority.
 
-The project grew from my Generative AI coursework. [Provenance](docs/PROVENANCE.md) distinguishes the original project, course context, preparation changes and third-party dependencies. The original history and coursework remain preserved separately. No source-code reuse license has been assigned, and no license grant for excluded material is implied. Model and dataset terms are linked in [data and model notes](docs/DATA_AND_MODEL.md).
+The project grew from my Generative AI coursework. [Provenance](docs/PROVENANCE.md) distinguishes the original project, course context, preparation changes and third-party dependencies. No source-code reuse license has been assigned, and no license grant for excluded material is implied. Model and dataset terms are linked in [data and model notes](docs/DATA_AND_MODEL.md).
